@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Anagrams {
     public static List<String> of(String str) {
-        ArrayList<String> result = new ArrayList<>();
+        ArrayList<String> result = new ArrayList<String>();
 
         if (str.length() == 1) {
             result.add(str);
